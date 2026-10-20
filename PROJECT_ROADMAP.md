@@ -2,7 +2,7 @@
 
 - **Project type:** Demo portfolio store (fictional home décor brand)
 - **Positioning:** React/Next.js e-commerce, state management and product browsing
-- **Status:** MVP deployed; GitHub integration pending
+- **Status:** MVP deployed; GitHub and automatic Vercel deployment connected
 - **UI language:** English
 - **Original planning estimate:** Approximately 4–6 focused development days
 
@@ -67,7 +67,7 @@ No payment gateway or database is required in MVP. Never collect credit-card num
 
 ## 5. Implementation roadmap
 
-Check off tasks in order. **Status: 22/23**.
+Check off tasks in order. **Status: 23/23**.
 
 ### Phase A — Project foundation
 
@@ -101,7 +101,7 @@ Check off tasks in order. **Status: 22/23**.
 - [x] **E19 — Edge cases:** invalid slug, missing images, empty search/cart, quantity boundaries and storage failures. *(React / Next.js)*
 - [x] **E20 — Tests:** cart operations, filter logic, totals and checkout validation; verify build. *(Node.js test runner / `tsx`, `npm run build`)*
 - [x] **E21 — SEO/performance:** metadata, Open Graph, structured product semantics where appropriate, optimized images. *(Next.js / Lighthouse)*
-- [ ] **E22 — GitHub integration:** publish the prepared source and connect it to the existing Vercel project. The public deployment and production smoke tests are complete. *(Git / Vercel)*
+- [x] **E22 — GitHub integration:** source and English documentation are published to the private repository; `main` is connected to the existing Vercel project. A GitHub-triggered production deployment reached Ready. *(Git / Vercel)*
 - [x] **E23 — Portfolio case study:** clean README, screenshots, demo credentials = none, features and limitations. *(Markdown)*
 
 ## 6. Suggested folder layout
@@ -141,7 +141,7 @@ nord-and-nest/
 - [x] Demo checkout validates fields and clearly states that no real order was placed.
 - [x] Keyboard controls, labelled forms and empty/error states have been checked within the scope recorded in `QA.md`.
 - [x] The production build, TypeScript check and configured tests pass.
-- [ ] The public Vercel site, prepared English documentation and screenshots are ready; GitHub publication and automatic deployment remain pending.
+- [x] The public Vercel site, English documentation and screenshots are available; GitHub publication and automatic deployment from `main` are verified.
 
 ## 8. Phase 2 — Optional full-stack upgrade (later)
 
@@ -152,15 +152,15 @@ Keep this separate from the fast MVP.
 3. Implement an actual checkout only after choosing a payment provider legally and technically available to the business; use provider-hosted payment pages and signed webhook verification.
 4. Add proper privacy policy and fulfillment/shipping terms before real commerce.
 
-## 9. Next release task
+## 9. Release workflow
 
-Publish the prepared source and English documentation to GitHub, connect the repository to the existing Vercel project and verify a deployment from the production branch. Preserve the current public URL.
+Publish changes to `main` in https://github.com/kreatorrdev/nord-and-nest. Vercel automatically builds the connected production branch and updates https://nord-and-nest.vercel.app after a successful deployment. Run the checks appropriate to each change before publishing.
 
 
 ## Implementation note — 19 October 2026
 
-The MVP is implemented with a Next.js static export, original generated assets, interactive browsing, persistent cart and wishlist state, demo checkout and English portfolio documentation. It is publicly deployed on Vercel. The original private Sites version is retained. E22 remains open only for GitHub publication and its Vercel connection.
+The MVP is implemented with a Next.js static export, original generated assets, interactive browsing, persistent cart and wishlist state, demo checkout and English portfolio documentation. It is publicly deployed on Vercel. The original private Sites version is retained.
 
 ### Vercel release
 
-The public Vercel site is live at https://nord-and-nest.vercel.app. Production routes, images and persistent cart behavior were smoke-tested. The GitHub portion of E22 is not connected; Vercel was deployed directly from the source ZIP.
+The public Vercel site is live at https://nord-and-nest.vercel.app. Production routes, images and persistent cart behavior were smoke-tested. The initial deployment used a source ZIP. On 20 October 2026, the source was published to the private GitHub repository and connected to Vercel; an automatic production build from `main` reached Ready, completing E22.

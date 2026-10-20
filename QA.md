@@ -29,6 +29,13 @@ Date: 19 October 2026.
 - Open Graph image resolves against the public Vercel domain.
 - Production screenshot: `docs/screenshots/vercel-live.jpg`.
 
+## GitHub integration verification — 20 October 2026
+
+- The private repository at https://github.com/kreatorrdev/nord-and-nest contains the application source, generated assets, screenshots and English documentation.
+- Vercel shows the repository as connected, with `main` tracked for Production and automatic domain assignment enabled.
+- A documentation commit (`827d028`) triggered a GitHub deployment automatically. Vercel reported Ready and the associated GitHub commit status reported success.
+- The deployment uses the existing public domain, https://nord-and-nest.vercel.app.
+
 ## Verification boundaries
 
 No Lighthouse score, screen-reader certification or real commerce validation is claimed. The checkout is intentionally local and illustrative. Asset gallery variants share a generated source image. Contact information is fictional.

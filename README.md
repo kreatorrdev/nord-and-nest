@@ -85,6 +85,6 @@ There are no customer accounts, payment processing, live inventory or order fulf
 
 ## Deployment
 
-The public site is hosted at **https://nord-and-nest.vercel.app**. The private [GitHub repository](https://github.com/kreatorrdev/nord-and-nest) is connected to the existing Vercel project. Changes pushed to the production branch are built and deployed automatically. The initial release was deployed through Vercel Drop.
+The public site is hosted at **https://nord-and-nest.vercel.app**. The private [GitHub repository](https://github.com/kreatorrdev/nord-and-nest) is connected to the existing Vercel project. Changes pushed to `main` are built and deployed automatically. A GitHub-triggered production deployment was verified as Ready. The initial release was deployed through Vercel Drop.
 
 The original private Sites deployment is retained. Hosting configuration, deployment identifiers and update instructions are recorded in [DEPLOYMENT.md](DEPLOYMENT.md).
