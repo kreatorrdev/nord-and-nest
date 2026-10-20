@@ -15,11 +15,17 @@ The source upload is saved at `artifacts/nord-and-nest-vercel.zip`. It excludes 
 
 ## Updating the site
 
-To update the existing production project, upload the refreshed source package on its Vercel project overview. The project can also be updated through Vercel CLI after signing in.
+The source is stored in the private repository at https://github.com/kreatorrdev/nord-and-nest. The repository is connected to the existing Vercel project. Push changes to the production branch to start an automatic build and deployment, then check the deployment status in the Vercel dashboard. The public domain remains https://nord-and-nest.vercel.app.
 
-## GitHub integration status
+Use `npm ci`, `npm test`, `npm run typecheck` and `npm run build` to verify application changes before publishing them. No database or application secrets are required for this demo.
 
-The initial production deployment was made through Vercel Drop. A GitHub repository has not yet been connected, so pushes do not currently trigger automatic deployments. The next release task is to publish the prepared source to a repository and connect its `main` branch to the existing Vercel project.
+## GitHub integration
+
+- Repository: https://github.com/kreatorrdev/nord-and-nest (private).
+- Default branch: `main`.
+- Integration: connected to the existing `nord-and-nest` Vercel project.
+- Source includes the application, generated imagery, English documentation and portfolio screenshots.
+- Dependencies, build output, local hosting metadata and credentials are excluded from the repository.
 
 ## Site metadata
 

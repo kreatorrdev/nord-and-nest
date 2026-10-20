@@ -2,7 +2,7 @@
 
 A fictional Scandinavian home décor storefront built as an interactive developer portfolio project. The experience combines warm editorial styling, animated product presentations and a complete browser-based demo shopping flow.
 
-**[View the live site](https://nord-and-nest.vercel.app)** · [Deployment notes](DEPLOYMENT.md) · [Verification record](QA.md) · [Asset credits and prompts](ASSETS.md)
+**[View the live site](https://nord-and-nest.vercel.app)** · [GitHub repository](https://github.com/kreatorrdev/nord-and-nest) (private) · [Deployment notes](DEPLOYMENT.md) · [Verification record](QA.md) · [Asset credits and prompts](ASSETS.md)
 
 ![Nord & Nest desktop storefront](docs/screenshots/home-desktop.jpg)
 
@@ -85,6 +85,6 @@ There are no customer accounts, payment processing, live inventory or order fulf
 
 ## Deployment
 
-The public site is hosted at **https://nord-and-nest.vercel.app**. It was initially deployed through Vercel Drop. GitHub integration is pending; this documentation does not claim that automatic deployment is connected.
+The public site is hosted at **https://nord-and-nest.vercel.app**. The private [GitHub repository](https://github.com/kreatorrdev/nord-and-nest) is connected to the existing Vercel project. Changes pushed to the production branch are built and deployed automatically. The initial release was deployed through Vercel Drop.
 
 The original private Sites deployment is retained. Hosting configuration, deployment identifiers and update instructions are recorded in [DEPLOYMENT.md](DEPLOYMENT.md).
