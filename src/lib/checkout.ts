@@ -1,0 +1,3 @@
+import {z} from 'zod';
+export const checkoutSchema=z.object({firstName:z.string().trim().min(2,'Please enter at least 2 characters.').max(60),lastName:z.string().trim().min(2,'Please enter at least 2 characters.').max(60),email:z.email('Please enter a valid email address.'),address:z.string().trim().min(5,'Please enter a street and house number.').max(140),city:z.string().trim().min(2,'Please enter a city.').max(80),postal:z.string().trim().min(3,'Please enter a valid postal code.').max(12),country:z.string().min(1,'Please select a country.'),demo:z.boolean().refine(v=>v,'Please confirm that you understand this is a demo.')});
+export type CheckoutFields=z.infer<typeof checkoutSchema>;

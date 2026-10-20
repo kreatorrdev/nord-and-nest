@@ -1,0 +1,11 @@
+node_modules/
+.npm-cache/
+.next/
+out/
+*.tsbuildinfo
+.sites/
+.sites-runtime/
+.vercel/
+artifacts/
+test-results/
+.env*

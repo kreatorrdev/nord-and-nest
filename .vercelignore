@@ -1,0 +1,12 @@
+.git/
+.next/
+node_modules/
+out/
+.npm-cache/
+.sites-runtime/
+.sites/
+.openai/
+artifacts/
+docs/
+*.tsbuildinfo
+.env*
