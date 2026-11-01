@@ -1,5 +1,8 @@
 # Deployment guide
 
+> Source documentation review — 1 November 2026: the source repository is public. Earlier dated references to private source access describe the previous repository setting. Hosted access, private user data and historical verification retain their documented scope.
+
+
 ## Public production site
 
 The current release uses the connected GitHub repository and automatic production deployments from `main`. The initial Drop release is retained below as deployment history.
@@ -19,13 +22,13 @@ The source upload is saved at `artifacts/nord-and-nest-vercel.zip`. It excludes 
 
 ## Updating the site
 
-The source is stored in the private repository at https://github.com/kreatorrdev/nord-and-nest. The repository is connected to the existing Vercel project. Push changes to `main` to start an automatic production build and deployment, then check the deployment status in the Vercel dashboard. The public domain remains https://nord-and-nest.vercel.app.
+The source is stored in the public repository at https://github.com/kreatorrdev/nord-and-nest. The repository is connected to the existing Vercel project. Push changes to `main` to start an automatic production build and deployment, then check the deployment status in the Vercel dashboard. The public domain remains https://nord-and-nest.vercel.app.
 
 Use `npm ci`, `npm test`, `npm run typecheck` and `npm run build` to verify application changes before publishing them. No database or application secrets are required for this demo.
 
 ## GitHub integration
 
-- Repository: https://github.com/kreatorrdev/nord-and-nest (private).
+- Repository: https://github.com/kreatorrdev/nord-and-nest (public).
 - Default branch: `main`.
 - Production branch: `main`, with automatic domain assignment enabled.
 - Integration: connected to the existing `nord-and-nest` Vercel project.

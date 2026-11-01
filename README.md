@@ -1,8 +1,11 @@
 # Nord & Nest
 
+> Source documentation review — 1 November 2026: the source repository is public. Earlier dated references to private source access describe the previous repository setting. Hosted access, private user data and historical verification retain their documented scope.
+
+
 A fictional Scandinavian home décor storefront built as an interactive developer portfolio project. The experience combines warm editorial styling, animated product presentations and a complete browser-based demo shopping flow.
 
-**[View the live site](https://nord-and-nest.vercel.app)** · [GitHub repository](https://github.com/kreatorrdev/nord-and-nest) (private) · [Deployment notes](DEPLOYMENT.md) · [Verification record](QA.md) · [Asset credits and prompts](ASSETS.md)
+**[View the live site](https://nord-and-nest.vercel.app)** · [GitHub repository](https://github.com/kreatorrdev/nord-and-nest) (public) · [Deployment notes](DEPLOYMENT.md) · [Verification record](QA.md) · [Asset credits and prompts](ASSETS.md)
 
 ![Nord & Nest desktop storefront](docs/screenshots/home-desktop.jpg)
 
@@ -88,3 +91,9 @@ There are no customer accounts, payment processing, live inventory or order fulf
 The public site is hosted at **https://nord-and-nest.vercel.app**. The private [GitHub repository](https://github.com/kreatorrdev/nord-and-nest) is connected to the existing Vercel project. Changes pushed to `main` are built and deployed automatically. A GitHub-triggered production deployment was verified as Ready. The initial release was deployed through Vercel Drop.
 
 The original private Sites deployment is retained. Hosting configuration, deployment identifiers and update instructions are recorded in [DEPLOYMENT.md](DEPLOYMENT.md).
+
+## Maintaining this project
+
+See the [contribution guide](CONTRIBUTING.md) for setup, relevant checks, documentation and configuration rules.
+
+Browse the [documentation index](docs/README.md) for current guides and historical records.
